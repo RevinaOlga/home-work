@@ -1,0 +1,15 @@
+{
+  "name": "04",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "browser-sync start -s -f ./"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
