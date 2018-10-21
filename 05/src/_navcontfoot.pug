@@ -1,0 +1,34 @@
+-
+	var linksTop = [
+			{
+				Name: 'home',
+				hr: './' 
+			},
+			{
+				Name: 'about',
+				hr: './about.html' 	
+			}];
+
+.navigation
+	span Navigation:
+	each linkTop in linksTop
+		|
+		|
+		a(href= linkTop.hr)= linkTop.Name
+		
+	hr
+	each paragraph in paragraphs
+		a(href='#' + paragraph.id)= paragraph.header
+		|
+		|
+
+.content(style="padding-left: 10px")
+	each paragraph in paragraphs
+		include ./_paragraph.pug
+
+.footer
+	hr
+	each linkBottom in linksBottom
+		a(href= linkBottom.hr)= linkBottom.Name
+		|
+		|
