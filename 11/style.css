@@ -1,0 +1,24 @@
+.slides {
+    margin-right: auto;
+    margin-left: auto;
+    width: 640px;
+    height: 480px;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 5px;
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+
+
+}
