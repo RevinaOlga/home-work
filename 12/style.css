@@ -1,0 +1,34 @@
+html, body, .container {
+    height: 100%;
+}
+
+.header {
+
+    background-color: #a68a8a;
+    line-height: 3;
+}
+
+.footer {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f68f8f;
+}
+
+.main {
+    height: calc(100% - 200px);
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: #62dbca;
+
+}
+
