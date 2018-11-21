@@ -1,0 +1,15 @@
+mixin linkPages(name, id)
+    li.nav-item
+        a.nav-link(href='/page/'+ id + '.html')=name
+
+nav
+    ul.nav.flex-column
+        each navItem in navItems
+            li.nav-item
+                a.nav-link(href=navItem.href)= navItem.name
+
+
+    ul.nav.flex-column.pl-3 Pages:
+        - for (var index = 1; index <= pages.length; index++) {
+            +linkPages('Page ' + index, index)
+        - }

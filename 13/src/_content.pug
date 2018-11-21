@@ -1,0 +1,5 @@
+each page in pages
+    .col.mt-2
+        h2.col= page.name
+            .col= page.previewContent
+                a.badge(href='/page/' + page.id + '.html')| ...
