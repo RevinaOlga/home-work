@@ -1,0 +1,68 @@
+.spoiler {
+    
+    width: 570px;
+
+}
+
+.spoiler-item {
+
+    margin-bottom: 10px;
+
+}
+
+.spoiler-container-icon-title {
+
+    display: flex;
+    background-color: #F7F7F7;
+    height: 45px;
+    border: 1px solid #E7E7E7;
+    
+
+}
+
+.spoiler-icon {
+
+    width: 60px;
+    border-right: 1px solid #E7E7E7;
+    padding-left: 20px; 
+    padding-top: 13px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.spoiler-title {
+
+    padding-left: 30px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    
+}
+
+.spoiler-title__current {
+
+    color: #FF0036;
+    padding-left: 30px;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+
+
+.spoiler-content {
+
+    height: 0;
+    padding-top: 0px;
+    overflow: hidden;
+
+}
+
+.spoiler-content__current {
+
+    border: 1px solid #E7E7E7;
+    border-top: none;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 100%;
+    transition: height .4s, padding-top .2s;
+}
