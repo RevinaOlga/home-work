@@ -1,0 +1,29 @@
+$color: #2d2d2d
+
+@mixin fontview
+    color: $color
+    font-weight: bold
+
+@mixin font($fs, $mb)
+    margin-bottom: $mb
+    font-size: $fs
+
+.radio
+    margin-left: 20px
+    color: #767676
+    &_clear
+        color: $color
+        & .voxy-radio__box 
+            border-color: $color
+    &_question 
+        @include font(24px, 1.5em)
+        @include fontview 
+    &_options 
+        display: flex
+        flex-direction: column
+        &-item
+            @include font(19px, 2em)
+            align-items: flex-start
+            &__selected &-text
+                @include fontview
+
