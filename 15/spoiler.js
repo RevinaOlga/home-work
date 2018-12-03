@@ -1,10 +1,10 @@
 (function (){
 
-    var spoilerIcon = document.querySelectorAll('.spoiler-icon > img'),
+    var spoilerIcon = document.querySelectorAll('.spoiler_header-icon > img'),
 
-        spoilerTitle = document.querySelectorAll('.spoiler-title'),
+        spoilerTitle = document.querySelectorAll('.spoiler_header-title'),
 
-        spoilerContent = document.querySelectorAll('.spoiler-content');
+        spoilerContent = document.querySelectorAll('.spoiler_content');
 
     // Изменение вида мыши при наведении
 
@@ -29,7 +29,7 @@
         element.onclick = function() {
 
 
-            if (spoilerTitle[index].classList.contains('spoiler-title__current')) {
+            if (spoilerTitle[index].classList.contains('spoiler_header-title__current')) {
 
 
                 this.setAttribute('src', 'image/spoiler-icon-plus.png');
@@ -45,9 +45,9 @@
             }
 
 
-            spoilerTitle[index].classList.toggle('spoiler-title__current');
+            spoilerTitle[index].classList.toggle('spoiler_header-title__current');
 
-            spoilerContent[index].classList.toggle('spoiler-content__current');
+            spoilerContent[index].classList.toggle('spoiler_content__current');
 
 
         }

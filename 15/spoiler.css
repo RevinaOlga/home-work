@@ -1,16 +1,18 @@
-.spoiler {
+.spoilers{
     
     width: 570px;
 
 }
 
-.spoiler-item {
+
+.spoiler {
 
     margin-bottom: 10px;
 
 }
 
-.spoiler-container-icon-title {
+
+.spoiler_header {
 
     display: flex;
     background-color: #F7F7F7;
@@ -20,7 +22,7 @@
 
 }
 
-.spoiler-icon {
+.spoiler_header-icon {
 
     width: 60px;
     border-right: 1px solid #E7E7E7;
@@ -32,7 +34,7 @@
 
 
 
-.spoiler-title {
+.spoiler_header-title {
 
     padding-left: 30px;
     padding-top: 13px;
@@ -40,7 +42,7 @@
     
 }
 
-.spoiler-title__current {
+.spoiler_header-title__current {
 
     color: #FF0036;
     padding-left: 30px;
@@ -49,7 +51,7 @@
 }
 
 
-.spoiler-content {
+.spoiler_content {
 
     height: 0;
     padding-top: 0px;
@@ -57,7 +59,7 @@
 
 }
 
-.spoiler-content__current {
+.spoiler_content__current {
 
     border: 1px solid #E7E7E7;
     border-top: none;
