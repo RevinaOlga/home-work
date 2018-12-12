@@ -1,0 +1,36 @@
+{
+
+    "menuItems": [{
+        "name": "home",
+        "href": "#"
+    }, 
+    {
+        "name": "about us",
+        "href": "#"
+    },
+    {
+        "name": "portfolio",
+        "href": "#"
+    },
+    {
+        "name": "clients",
+        "href": "#"
+    },
+    {
+        "name": "team",
+        "href": "#"
+    },
+    {
+        "name": "services",
+        "href": "#"
+    },
+    {
+        "name": "blog",
+        "href": "#"
+    },
+    {
+        "name": "contact",
+        "href": "#"
+    }]
+
+}
