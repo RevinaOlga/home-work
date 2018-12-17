@@ -1,35 +1,15 @@
 {
 
-    "menuItems": [{
-        "name": "home",
+    "links": [{
+        "name": "Action",
         "href": "#"
     }, 
     {
-        "name": "about us",
+        "name": "Another action",
         "href": "#"
     },
     {
-        "name": "portfolio",
-        "href": "#"
-    },
-    {
-        "name": "clients",
-        "href": "#"
-    },
-    {
-        "name": "team",
-        "href": "#"
-    },
-    {
-        "name": "services",
-        "href": "#"
-    },
-    {
-        "name": "blog",
-        "href": "#"
-    },
-    {
-        "name": "contact",
+        "name": "Something else",
         "href": "#"
     }]
 
